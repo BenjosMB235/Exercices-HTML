@@ -1,0 +1,44 @@
+body{
+    margin-left: 450;
+    margin-right: 450;
+}
+.rempli{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.connexion{
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    height: 30px;
+    border: none;
+}
+.creer{
+    border: none;
+    text-align: center;
+    background-color: green;
+    color: white;
+    height: 30px;
+    margin-left: 36%;
+    font-style: normal;
+}
+.tete{
+    opacity: 0.6;
+    text-align: center;
+}
+.ou{
+    text-align: center;
+}
+a{
+    margin-top: 35px;
+    text-decoration: none;
+}
+/*div{
+    width: 100%;
+    display: inline-block;
+}*/
+hr{
+    width: 40%;
+}

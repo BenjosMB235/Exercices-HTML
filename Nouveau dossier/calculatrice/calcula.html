@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Calculatrice</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="calcu.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            <p class="tete">CALCIO</p>
+            <form action="">
+                <div>
+                    <input type="text" class="display" name="input">
+                </div>
+                <div class="pad">
+                    <div>
+                        <input type="reset" value="CL" class="del" onclick="input.value=input.value.toString().toSlice(0,1)">
+                        <input type="button" value="DEL">
+                        <input type="button" value="%" >
+                        <input type="button" value="/" onclick="input.value+='/'">
+                     </div>
+                     <div>
+                        <input type="button" value="7" onclick="input.value+='7'">
+                        <input type="button" value="8" onclick="input.value+='8'">
+                        <input type="button" value="9" onclick="input.value+='9'">
+                        <input type="button" value="*" onclick="input.value+='*'">
+                     </div>
+                    <div>
+                        <input type="button" value="4" onclick="input.value+='4'">
+                        <input type="button" value="5" onclick="input.value+='5'">
+                        <input type="button" value="6" onclick="input.value+='6'">
+                        <input type="button" value="-" onclick="input.value+='-'">
+                    </div>
+                    <div>
+                        <input type="button" value="1" onclick="input.value+='1'">
+                        <input type="button" value="2" onclick="input.value+='2'">
+                        <input type="button" value="3" onclick="input.value+='3'">
+                        <input type="button" value="+" onclick="input.value+='+'">
+                    </div>
+                    <div>
+                        <input type="button" value="." onclick="input.value+='.'">
+                        <input type="button" value="0" onclick="input.value+='0'">
+                        <input type="button" value="00" onclick="input.value+='00'">
+                        <input type="button" value="=" class="aqual" onclick="input.value=eval(input.value)">
+                    </div>
+                    
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
