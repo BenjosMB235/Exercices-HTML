@@ -1,0 +1,40 @@
+
+Jeu : Concours de beauté
+
+Nombre de joueurs : 5
+
+Matériel :
+
+(Une tablette pour chaque joueur)
+Une feuille de papier pour chaque joueur
+Un crayon pour chaque joueur
+Objectif du jeu :
+
+Être le dernier joueur restant.
+
+Règles du jeu :
+
+Chaque joueur choisit un chiffre entre 0 et 100.
+La moyenne des chiffres choisis par les joueurs est ensuite multipliée par 0,8.
+Le joueur qui a choisi le chiffre le plus proche du résultat remporte la manche.
+Les 4 joueurs perdant se verront chacun attribuer -1 point.
+Le joueur qui s'est le plus rapproché du résultat remportera +1 point.
+Lorsque qu'un joueur atteint le score de -10 points, il est éliminé.
+Le dernier joueur restant est déclaré vainqueur du jeu.
+
+Règles supplémentaires :
+
+Après chaque élimination, une nouvelle règle est ajoutée au jeu :
+
+Règle 1 : Si deux joueurs ou plus choisissent le même chiffre, leur réponse est annulée et ils perdent chacun 1 point.
+Règle 2 : Si le gagnant tombe sur le numéro exact, les autres joueurs perdent 2 points (-2) chacun.
+Règle 3 : Si un joueur choisit 0, son adversaire remportera la manche s'il choisit 100.
+
+Déroulement du jeu :
+
+Chaque joueur choisit un chiffre entre 0 et 100 sur sa tablette.
+Le maître du jeu annonce la moyenne des chiffres choisis.
+Le joueur qui a choisi le chiffre le plus proche du résultat remporte la manche.
+Les 4 joueurs perdant se verront chacun attribuer -1 point.
+Le joueur qui s'est le plus rapproché du résultat remportera +1 point.
+Le jeu continue jusqu'à ce qu'il n'y ait plus que 1 joueur restant.

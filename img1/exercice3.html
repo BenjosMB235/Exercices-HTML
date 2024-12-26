@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Exercice3 </title>
+        <style>
+            td .fin{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+		  <form>
+            <tr>
+                <td style="text-align: right;"> Votre pseudo:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">Votre mot de passe:</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">Ressaisir votre mot de passe:</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">OS préféré:</td>
+                <td>
+                    <input type="radio" name="text"><label>Windows XP</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="text-align: left;">
+                    <input type="radio" name="text"><label>Windows Vista</label><br>
+                    <input type="radio" name="text"><label>MacOs X</label><br>
+                    <input type="radio" name="text"><label>Linux</label><br>
+                    <input type="radio" name="text"><label>Autre</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">Vous possedez:</td>
+                <td>
+                    <input type="checkbox" value="ordinateur" name="ordinateur" id="ordinateur"><label for="ordinateur">Un ordinateur de bureau</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" value="portable" name="portable" id="portable"><label for="portable">Un portable</label><br>
+                    <input type="checkbox" value="netbook" name="netbook" id="netbook"><label for="netbook">Un netbook</label><br>
+                    <input type="checkbox" value="tablette" name="tablette" id="tablette"><label for="tablette">Une tablette (Pad)</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">Votre profession:</td>
+                <td>
+                    <select multiple>
+                        <option>chomeur</option>
+                        <option>Etudiant</option>
+                        <option>Fonctionnaire</option>
+                        <option>Privé</option>
+                        <option>Retraité</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="fin" colspan="2"><input type="submit" value="S'incrire"></td>
+            </tr>
+			</form>
+        </table>
+    </body>
+</html>

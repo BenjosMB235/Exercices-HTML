@@ -1,0 +1,43 @@
+body{
+    background: #FFFF77;
+}
+.voir{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border: 10px solid #fff;
+    overflow: hidden; /*Pour cacher l'element ".cache" qui contient la description de l'article*/
+    float: left;
+    margin: 5px;
+}
+.voir img{
+    width: 300px;
+    height: 200px;
+}
+.cache{
+    position: absolute;
+    left: 0;
+    top: 200px;
+    /*Pour positionner l'élement ".mask" au dessous de l'article*/
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    /*transition sur la propriété top qui change de 200px à 0 pendant le hover*/
+    transition: top 0.7s linear;
+
+}
+.cache a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-family: fantasy, sans-serif;
+    background: #000;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+/*Changement de la position du ".cache" pendant le survol sur .voir*/
+.voir:hover> .cache{
+    top: 0;
+}

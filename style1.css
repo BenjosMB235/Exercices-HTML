@@ -1,0 +1,70 @@
+body{
+    /*background-color: aqua; */
+}
+.container{
+    width: 80%;
+    height: 950px;
+    margin: 0 150px;
+    background-color: beige;
+}
+.menu{
+    height: 75px;
+    background-color: rgb(59, 89, 152);
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li a{
+    color: rgb(59, 89, 152);
+    font-size: 20px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    display: block;
+    float: left;
+    /*margin: 50px */
+    margin-top: 25px;
+    padding: 8px;
+}
+#btn{
+    float: right;
+    margin-right: 35px;
+}
+.menu ul li a:hover{
+    color: white;
+    background-color: rgb(59, 89, 152);
+    font-size: 30px;
+}
+.rech{
+    margin-top: 2px;
+    /*background-color: red; */
+}
+.rech form{
+    margin:  0 40px;
+}
+.rech form input{
+    width: 100%;
+    border: rgb(59, 89, 152) 1px solid;
+    border-radius: 5px;
+    margin-bottom: 7px;
+
+}
+.sto{
+    display: flex;
+}
+.profile{
+    width: 10%;
+    background-color: red;
+    height: auto;
+}
+.profile img{
+    border-radius: 50px;
+    padding: 5px 5px;
+    width: 95px;
+}
+.story{
+    width: 90%;
+   /* background-color: blue;*/
+   border: rgb(59, 89, 152) 1px solid;
+    height: 100px;
+}
